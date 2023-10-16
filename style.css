@@ -1,0 +1,28 @@
+.tanque1, .tanque2{
+	text-align: center;
+	margin: auto;
+  	width: 50%;
+  	height: 160px;
+  	border: 8px solid cadetblue;
+	border-radius: 90px 90px 90px 90px;
+  	padding-bottom: 10px;
+}
+
+.tanque1, .tanque2{
+	background: linear-gradient(to bottom, #03A9F4 0%, #00BCD4 100%) no-repeat;  	
+	background-size: calc(100% - 0px) calc(0% + 0%);
+	background-position: bottom;
+}
+
+.tag1, .tag2, .tub{
+	display: grid;
+}
+
+.tub{
+    margin: auto;
+    width: 6px;
+    height: 15px;
+    border: 4px solid #050707;
+    border-radius: 10px 10px 10px 10px;
+    padding-bottom: 10px;
+}
